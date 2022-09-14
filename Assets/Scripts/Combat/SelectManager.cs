@@ -17,7 +17,10 @@ public class SelectManager : MonoBehaviour
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit2D hit = Physics2D.GetRayIntersection(ray);
-            clickedCountry = hit.collider.GetComponent<suvari1>();
+            if (hit.collider)
+            {
+                clickedCountry = hit.collider.GetComponent<suvari1>();
+            }
             if (selectedPlayer.Count == 0)
             {
                 //Debug.Log("1. ye eklendi");

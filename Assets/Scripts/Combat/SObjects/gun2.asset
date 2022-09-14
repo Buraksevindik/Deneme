@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbc101d4c1763da46a369ab66b1941c1, type: 3}
   m_Name: gun2
   m_EditorClassIdentifier: 
-  diceFace: 7
+  diceFace: 6
   diceAmount: 1
   attackType: 1

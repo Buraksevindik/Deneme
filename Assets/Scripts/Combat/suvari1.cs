@@ -5,20 +5,19 @@ using UnityEngine;
 
 public class suvari1 : MonoBehaviour
 {
-    //Gun gun;
-    //Shield shield;
-    //public
+    public GameObject dice1,dice2;
     GameObject clickedEnemy;
     SelectManager selectManager;
     public SoldierSObject soldier;
+    int diceAmount;
 
     //List<Gun> gunList;
     private void Awake()
     {
         selectManager = FindObjectOfType<SelectManager>();
         selectManager.gunList = new List<Gun>();
+        //dice2 = dice1.GetComponent<Dice>().go;
     }
-    //public List<float> a;
     private void OnMouseDown()
     {
         RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
@@ -26,25 +25,22 @@ public class suvari1 : MonoBehaviour
         //Debug.Log(soldier.Gun.attackType);
         if (selectManager.selectedPlayer.Count == 0)
         {
-            Debug.Log("birinci týklanýþ");
+            //Debug.Log("EKLENDÝ");
+            diceAmount = (dice1.GetComponent<Dice>().finalSide + dice2.GetComponent<Dice>().finalSide);
+            Debug.Log(diceAmount);
             selectManager.gunList.Add(soldier.Gun);
-            //Debug.Log("birinci oyuncunun kýlýcý seçildi");
         }
         else if (selectManager.selectedPlayer.Count == 1)
         {
-            Debug.Log("ikinci týklanýþ");
-
-            Debug.Log(selectManager.gunList[0]);
-            /*  Debug.Log("checkAnti");*/
-
+            diceAmount = (dice1.GetComponent<Dice>().finalSide + dice2.GetComponent<Dice>().finalSide);
+            //Debug.Log(diceAmount);
+            //Debug.Log(selectManager.gunList[0]);
             checkAnti();
             selectManager.gunList.Clear();
-            //Debug.Log("ikinci oyuncunun kalkaný seçildi");
         }
     }
     public void checkAnti()
     {
-
         if (soldier.Shield.advantageList.Contains(selectManager.gunList[0]))
         {
             Debug.Log("KALKAN SÝLAHA ANTÝ");
