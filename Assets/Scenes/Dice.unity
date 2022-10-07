@@ -183,6 +183,7 @@ MonoBehaviour:
   dice1: {fileID: 423768363}
   dice2: {fileID: 80412898}
   soldier: {fileID: 11400000, guid: 6a091d2494722d44e861a0a295c4215a, type: 2}
+  diceAmount: 0
 --- !u!212 &55279181
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -242,13 +243,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 55279178}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.33, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.031062, y: 0.12791023, z: 9.9755125}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 1537063406}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &80412898
 GameObject:
@@ -281,6 +282,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60c3223852ae98e4988bd15e38b71cd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  secondDice: {fileID: 0}
+  suvari1: {fileID: 0}
   soldier: {fileID: 11400000, guid: 6a091d2494722d44e861a0a295c4215a, type: 2}
   finalSide: 0
   go: {fileID: 0}
@@ -904,6 +907,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60c3223852ae98e4988bd15e38b71cd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  secondDice: {fileID: 2082718944}
+  suvari1: {fileID: 1165901702}
   soldier: {fileID: 11400000, guid: 6a091d2494722d44e861a0a295c4215a, type: 2}
   finalSide: 0
   go: {fileID: 2082718944}
@@ -1047,6 +1052,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60c3223852ae98e4988bd15e38b71cd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  secondDice: {fileID: 80412898}
+  suvari1: {fileID: 55279180}
   soldier: {fileID: 11400000, guid: 6a091d2494722d44e861a0a295c4215a, type: 2}
   finalSide: 0
   go: {fileID: 80412898}
@@ -1208,6 +1215,7 @@ MonoBehaviour:
   dice1: {fileID: 2057776562}
   dice2: {fileID: 1370450918}
   soldier: {fileID: 11400000, guid: 36af8d6276d0b634bbd0d3e7bdd2f8f3, type: 2}
+  diceAmount: 0
 --- !u!212 &609086225
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1267,13 +1275,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 609086222}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.2, y: -2.54, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.4989376, y: -2.4120898, z: 9.9755125}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 1902090721}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &636696544 stripped
 GameObject:
@@ -1356,6 +1364,7 @@ MonoBehaviour:
   dice1: {fileID: 2087965041}
   dice2: {fileID: 1131595889}
   soldier: {fileID: 11400000, guid: 6a091d2494722d44e861a0a295c4215a, type: 2}
+  diceAmount: 0
 --- !u!212 &799983306
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1415,13 +1424,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 799983303}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.33, y: -5.16, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.031062, y: -5.0320897, z: 9.9755125}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 1537063406}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &847051385
 GameObject:
@@ -1483,6 +1492,7 @@ MonoBehaviour:
   dice1: {fileID: 371202047}
   dice2: {fileID: 1877182439}
   soldier: {fileID: 11400000, guid: 36af8d6276d0b634bbd0d3e7bdd2f8f3, type: 2}
+  diceAmount: 0
 --- !u!212 &847051388
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1542,13 +1552,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 847051385}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.2, y: -7.85, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.4989376, y: -7.72209, z: 9.9755125}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 1902090721}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &904704796
 GameObject:
@@ -1648,6 +1658,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60c3223852ae98e4988bd15e38b71cd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  secondDice: {fileID: 0}
+  suvari1: {fileID: 0}
   soldier: {fileID: 11400000, guid: 6a091d2494722d44e861a0a295c4215a, type: 2}
   finalSide: 0
   go: {fileID: 0}
@@ -1775,6 +1787,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   selectedPlayer: []
   gunList: []
+  enemies:
+  - {fileID: 1559557970}
+  - {fileID: 609086224}
+  - {fileID: 2060738171}
+  - {fileID: 847051387}
+  ourSoldiers:
+  - {fileID: 55279180}
+  - {fileID: 2083673449}
+  - {fileID: 799983305}
+  - {fileID: 1165901702}
 --- !u!4 &1084289111
 Transform:
   m_ObjectHideFlags: 0
@@ -1788,7 +1810,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1131595889
 GameObject:
@@ -1821,6 +1843,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60c3223852ae98e4988bd15e38b71cd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  secondDice: {fileID: 0}
+  suvari1: {fileID: 0}
   soldier: {fileID: 11400000, guid: 6a091d2494722d44e861a0a295c4215a, type: 2}
   finalSide: 0
   go: {fileID: 0}
@@ -1977,6 +2001,7 @@ MonoBehaviour:
   dice1: {fileID: 238311488}
   dice2: {fileID: 2082718944}
   soldier: {fileID: 11400000, guid: 6a091d2494722d44e861a0a295c4215a, type: 2}
+  diceAmount: 0
 --- !u!212 &1165901703
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2036,13 +2061,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1165901700}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.33, y: -7.85, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.031062, y: -7.72209, z: 9.9755125}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 1537063406}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1180126895
 GameObject:
@@ -2075,6 +2100,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60c3223852ae98e4988bd15e38b71cd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  secondDice: {fileID: 921457794}
+  suvari1: {fileID: 2083673449}
   soldier: {fileID: 11400000, guid: 6a091d2494722d44e861a0a295c4215a, type: 2}
   finalSide: 0
   go: {fileID: 921457794}
@@ -2202,6 +2229,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60c3223852ae98e4988bd15e38b71cd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  secondDice: {fileID: 0}
+  suvari1: {fileID: 0}
   soldier: {fileID: 11400000, guid: 36af8d6276d0b634bbd0d3e7bdd2f8f3, type: 2}
   finalSide: 0
   go: {fileID: 0}
@@ -2329,6 +2358,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60c3223852ae98e4988bd15e38b71cd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  secondDice: {fileID: 0}
+  suvari1: {fileID: 0}
   soldier: {fileID: 11400000, guid: 36af8d6276d0b634bbd0d3e7bdd2f8f3, type: 2}
   finalSide: 0
   go: {fileID: 0}
@@ -2551,7 +2582,42 @@ Transform:
   - {fileID: 238311489}
   - {fileID: 2082718945}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1537063405
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1537063406}
+  m_Layer: 0
+  m_Name: player2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1537063406
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537063405}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.2989376, y: -0.12791023, z: -9.9755125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 55279182}
+  - {fileID: 2083673451}
+  - {fileID: 799983307}
+  - {fileID: 1165901704}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1559557968
 GameObject:
@@ -2613,6 +2679,7 @@ MonoBehaviour:
   dice1: {fileID: 1866827234}
   dice2: {fileID: 1364505195}
   soldier: {fileID: 11400000, guid: 36af8d6276d0b634bbd0d3e7bdd2f8f3, type: 2}
+  diceAmount: 0
 --- !u!212 &1559557971
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2672,13 +2739,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1559557968}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.2, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.4989376, y: 0.12791023, z: 9.9755125}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 1902090721}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1798865536
 GameObject:
@@ -2888,6 +2955,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60c3223852ae98e4988bd15e38b71cd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  secondDice: {fileID: 1364505195}
+  suvari1: {fileID: 1559557970}
   soldier: {fileID: 11400000, guid: 36af8d6276d0b634bbd0d3e7bdd2f8f3, type: 2}
   finalSide: 0
   go: {fileID: 0}
@@ -2896,6 +2965,41 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3396607941053766100, guid: 0da03a29d9d7dc540995be6060b1e804, type: 3}
   m_PrefabInstance: {fileID: 2116932853}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1902090720
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1902090721}
+  m_Layer: 0
+  m_Name: player1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1902090721
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1902090720}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.2989376, y: -0.12791023, z: -9.9755125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1559557972}
+  - {fileID: 609086226}
+  - {fileID: 2060738173}
+  - {fileID: 847051389}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2057776562
 GameObject:
   m_ObjectHideFlags: 0
@@ -2927,6 +3031,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60c3223852ae98e4988bd15e38b71cd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  secondDice: {fileID: 1370450918}
+  suvari1: {fileID: 609086224}
   soldier: {fileID: 11400000, guid: 36af8d6276d0b634bbd0d3e7bdd2f8f3, type: 2}
   finalSide: 0
   go: {fileID: 1370450918}
@@ -3083,6 +3189,7 @@ MonoBehaviour:
   dice1: {fileID: 636696544}
   dice2: {fileID: 365956815}
   soldier: {fileID: 11400000, guid: 36af8d6276d0b634bbd0d3e7bdd2f8f3, type: 2}
+  diceAmount: 0
 --- !u!212 &2060738172
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3142,13 +3249,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2060738169}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.2, y: -5.16, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.4989376, y: -5.0320897, z: 9.9755125}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 1902090721}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2082718944
 GameObject:
@@ -3196,6 +3303,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60c3223852ae98e4988bd15e38b71cd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  secondDice: {fileID: 0}
+  suvari1: {fileID: 0}
   soldier: {fileID: 11400000, guid: 6a091d2494722d44e861a0a295c4215a, type: 2}
   finalSide: 0
   go: {fileID: 0}
@@ -3337,6 +3446,7 @@ MonoBehaviour:
   dice1: {fileID: 1180126895}
   dice2: {fileID: 921457794}
   soldier: {fileID: 11400000, guid: 6a091d2494722d44e861a0a295c4215a, type: 2}
+  diceAmount: 0
 --- !u!212 &2083673450
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3396,13 +3506,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2083673447}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.33, y: -2.54, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.031062, y: -2.4120898, z: 9.9755125}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 1537063406}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2087965041
 GameObject:
@@ -3435,6 +3545,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60c3223852ae98e4988bd15e38b71cd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  secondDice: {fileID: 1131595889}
+  suvari1: {fileID: 799983305}
   soldier: {fileID: 11400000, guid: 6a091d2494722d44e861a0a295c4215a, type: 2}
   finalSide: 0
   go: {fileID: 1131595889}
@@ -3687,6 +3799,14 @@ PrefabInstance:
       propertyPath: soldier
       value: 
       objectReference: {fileID: 11400000, guid: 36af8d6276d0b634bbd0d3e7bdd2f8f3, type: 2}
+    - target: {fileID: 3396607941053766101, guid: 0da03a29d9d7dc540995be6060b1e804, type: 3}
+      propertyPath: suvari1
+      value: 
+      objectReference: {fileID: 847051387}
+    - target: {fileID: 3396607941053766101, guid: 0da03a29d9d7dc540995be6060b1e804, type: 3}
+      propertyPath: secondDice
+      value: 
+      objectReference: {fileID: 1877182439}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0da03a29d9d7dc540995be6060b1e804, type: 3}
 --- !u!1001 &3396607940423380532
@@ -3764,5 +3884,13 @@ PrefabInstance:
       propertyPath: soldier
       value: 
       objectReference: {fileID: 11400000, guid: 36af8d6276d0b634bbd0d3e7bdd2f8f3, type: 2}
+    - target: {fileID: 3396607941053766101, guid: 0da03a29d9d7dc540995be6060b1e804, type: 3}
+      propertyPath: suvari1
+      value: 
+      objectReference: {fileID: 2060738171}
+    - target: {fileID: 3396607941053766101, guid: 0da03a29d9d7dc540995be6060b1e804, type: 3}
+      propertyPath: secondDice
+      value: 
+      objectReference: {fileID: 365956815}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0da03a29d9d7dc540995be6060b1e804, type: 3}

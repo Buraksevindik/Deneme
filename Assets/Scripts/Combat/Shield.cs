@@ -16,5 +16,4 @@ public class Shield : ScriptableObject
         c 
     }
     public shieldTypes shieldType;
-
 }

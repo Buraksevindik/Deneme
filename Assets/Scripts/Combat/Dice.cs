@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class Dice : MonoBehaviour
 {
-    Gun gun;
+    
+    public GameObject secondDice;
+    public suvari1 suvari1;
+    SelectManager selectManager;
     public SoldierSObject soldier;
     int randomDiceSide = 0;
     public int finalSide = 0;
@@ -18,10 +21,10 @@ public class Dice : MonoBehaviour
 
     private void Start()
     {
+        selectManager = FindObjectOfType<SelectManager>();
         vector = gameObject.transform.position;
         string a = this.gameObject.name;
         rend = GetComponent<SpriteRenderer>();
-
         diceSides = Resources.LoadAll<Sprite>("DiceSides/");
     }
     //private void OnMouseDown()
@@ -30,16 +33,22 @@ public class Dice : MonoBehaviour
     //}
     public void LoopRollTheDice()
     {
+        foreach (var ourSoldiers in selectManager.ourSoldiers)
+        {
+            ourSoldiers.gameObject.GetComponent<Collider2D>().enabled=true;
+        }
         for (int i = 0; i < soldier.Gun.DiceAmount; i++)
         {
             if (i == 0)
             {
                 RollTheDice(this.gameObject);
+                suvari1.diceAmount = (this.gameObject.GetComponent<Dice>().finalSide + secondDice.GetComponent<Dice>().finalSide);
             }
             else if (i == 1)
             {
                 go.SetActive(true);
                 RollTheDice(go);
+                suvari1.diceAmount = (this.gameObject.GetComponent<Dice>().finalSide + secondDice.GetComponent<Dice>().finalSide);
             }
         }
     }
